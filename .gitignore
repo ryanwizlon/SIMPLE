@@ -1,0 +1,38 @@
+# .gitignore file
+
+# Ignore configuration files that may contain sensitive information
+*.conf
+
+# Ignore all logfiles and databases.
+*.log
+*.sql
+*.sqlite
+
+# Ignore user uploaded files
+/user_uploads/*
+
+# Ignore OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.ide/
+
+# Ignore build files
+/bin
+/obj
+/.vs
+
+# Ignore git files
+/.git
